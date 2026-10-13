@@ -24,3 +24,9 @@ This project builds an automated time series forecasting pipeline in Google BigQ
 * `sql/02_train_arima_model.sql` : BQML ARIMA_PLUS model definition
 * `sql/03_model_evaluation.sql` : AIC parameter and fit inspection
 * `sql/04_future_forecast.sql` : 30-day forward sales prediction query
+
+* ## Assets Structure
+* `store_sales_raw_data.csv` : Basic sales raw data 
+* `model_accuracy_evaluation.csv` : ARIMA_Plus Model accuracy evaluation
+* `projected_store_sales_data_30days.csv` : Output data based on ARIMA_Plus model implementation
+* `ARIMA_model parameter outcome.csv` : Model parameters outcome for each row
